@@ -42,6 +42,7 @@ var Cards = React.createClass({
         Pero igual deberás descubrirlo </p>
       </div>
       <div className="stage"> {cards} </div>
+      { this.state.allToggled ? <div>All Toggled</div> : null }
       <div className={footerClass} >
         <p> Y no me cansaré de repetírtelo... <br /> Me haces muy feliz! </p>
       </div>
